@@ -5,8 +5,8 @@ cmake_minimum_required(VERSION 3.10)
 # Older x86/x64 processors may support SSE2 but not AVX2.
 # Very old x86/x64 processors, or non x86/x64 
 # processors, do not support any of the two.
-set(ENABLE_SSE2 True)
-set(ENABLE_AVX2 True)
+# set(ENABLE_SSE2 True)
+# set(ENABLE_AVX2 True)
 
 #####################
 
